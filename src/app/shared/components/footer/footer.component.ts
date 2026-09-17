@@ -26,7 +26,7 @@ import { RouterModule } from '@angular/router';
           <!-- Giant Bold "RED TAXI" Typography Spanning Across Banner -->
           <div class="absolute inset-0 flex items-end justify-center pb-2 sm:pb-4 md:pb-6 pointer-events-none px-4">
             <h2 class="text-[15vw] sm:text-[16vw] md:text-[15vw] font-black tracking-tighter text-white uppercase leading-none text-center drop-shadow-2xl">
-              RED TAXI
+              RED TAXIS
             </h2>
           </div>
 
@@ -48,7 +48,7 @@ import { RouterModule } from '@angular/router';
                 </svg>
               </div>
               <span class="text-base font-bold text-slate-900 dark:text-white tracking-tight">
-                Red Taxi
+                Red Taxis
               </span>
             </a>
 
@@ -140,10 +140,10 @@ import { RouterModule } from '@angular/router';
         <!-- 3. BOTTOM BAR -->
         <div class="py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-500">
           <div>
-            © 2026 Red Taxi. All rights reserved.
+            © 2026 Red Taxis. All rights reserved.
           </div>
           <div class="text-right text-slate-400 dark:text-slate-600">
-            Red Taxi Inc. — Registered dispatch & transport operator
+            Red Taxis Inc. — Registered dispatch & transport operator
           </div>
         </div>
 

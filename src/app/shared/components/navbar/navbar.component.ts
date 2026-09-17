@@ -30,7 +30,7 @@ import { ThemeService } from '../../../core/services/theme.service';
 
             <div class="flex flex-col">
               <span class="text-base sm:text-lg font-black tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5 leading-none">
-                RED <span class="text-brand-600 dark:text-brand-500">TAXI</span>
+                RED <span class="text-brand-600 dark:text-brand-500">TAXIS</span>
               </span>
             </div>
           </a>
@@ -193,7 +193,7 @@ import { ThemeService } from '../../../core/services/theme.service';
         </div>
 
         <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-          Get full access to Red Taxi's cloud dispatch engine, GPS tracking, passenger booking app, driver cockpit, and automated billing. No credit card required.
+          Get full access to Red Taxis' cloud dispatch engine, GPS tracking, passenger booking app, driver cockpit, and automated billing. No credit card required.
         </p>
 
         <div class="space-y-3">

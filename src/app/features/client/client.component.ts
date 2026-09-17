@@ -14,7 +14,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
       <section class="max-w-4xl mx-auto px-4 sm:px-6 text-center mb-12 sm:mb-16 space-y-4">
         <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-500/10 dark:bg-brand-500/20 border border-brand-500/30 text-brand-600 dark:text-brand-400 text-xs font-bold uppercase tracking-wider">
           <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
-          Red Taxi Mobile Ecosystem
+          Red Taxis Mobile Ecosystem
         </div>
 
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight">
@@ -65,7 +65,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
                   For Riders & Daily Commuters
                 </span>
                 <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
-                  Red Taxi Passenger App
+                  Red Taxis Passenger App
                 </h2>
                 <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
                   Fastest cab booking in town with sub-second matching, live GPS tracking, and locked upfront fares.
@@ -155,7 +155,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
 
             </div>
 
-            <!-- Right App Visual Showcase (Clean, Integrated & Vector-Aligned) -->
+            <!-- Right App Visual Showcase -->
             <div class="lg:col-span-6 p-6 sm:p-10 flex items-center justify-center relative">
               
               <!-- Ambient Glow behind Mockup -->
@@ -164,7 +164,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
               <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 group">
                 <img 
                   src="/assets/passenger-experience.jpg" 
-                  alt="Red Taxi Passenger App UI Screens" 
+                  alt="Red Taxis Passenger App UI Screens" 
                   class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
@@ -193,7 +193,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
                   For Chauffeurs & Fleet Owners
                 </span>
                 <h2 class="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">
-                  Red Taxi Driver Cockpit
+                  Red Taxis Driver Cockpit
                 </h2>
                 <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
                   Earn more with zero idle downtime, instant trip alerts, daily bank payouts, and 24/7 partner support.
@@ -274,7 +274,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
               <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 group">
                 <img 
                   src="/assets/driver-ai-assistant.jpg" 
-                  alt="Red Taxi Driver Cockpit App UI" 
+                  alt="Red Taxis Driver Cockpit App UI" 
                   class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
@@ -298,7 +298,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
             Everything You Need to Run Your Fleet
           </h2>
           <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed font-normal">
-            From dispatch to payments, Red Taxi gives you the tools to manage your taxi business efficiently.
+            From dispatch to payments, Red Taxis gives you the tools to manage your taxi business efficiently.
           </p>
         </div>
 
@@ -390,7 +390,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
               <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                 <circle cx="12" cy="12" r="10"/>
                 <line x1="2" y1="12" x2="22" y2="12"/>
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1 4-10z"/>
               </svg>
             </div>
             <h3 class="text-base font-bold text-slate-900 dark:text-white tracking-tight group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors">
@@ -409,7 +409,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
       <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 sm:pt-20">
         <div class="rounded-3xl p-8 sm:p-12 bg-gradient-to-r from-slate-900 via-slate-950 to-brand-950 text-white border border-slate-800 shadow-2xl flex flex-col sm:flex-row items-center justify-between gap-6">
           <div class="space-y-2 text-center sm:text-left">
-            <h3 class="text-2xl sm:text-3xl font-black">Experience the Red Taxi ecosystem</h3>
+            <h3 class="text-2xl sm:text-3xl font-black">Experience the Red Taxis ecosystem</h3>
             <p class="text-xs sm:text-sm text-slate-300 max-w-md">
               Download the passenger or driver partner app today. Available across iOS, Android, and Web.
             </p>

@@ -323,7 +323,7 @@ export class LiveMapComponent {
 
   getStatusLabel(status: string): string {
     switch (status) {
-      case 'searching': return 'Finding Red Taxi...';
+      case 'searching': return 'Finding Red Taxis...';
       case 'driver_assigned': return 'Driver En Route';
       case 'driver_arrived': return 'Driver Waiting Outside';
       case 'in_progress': return 'In Progress';
