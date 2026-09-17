@@ -155,15 +155,15 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
 
             </div>
 
-            <!-- Right App Visual Showcase (Clean, Integrated & High-End) -->
+            <!-- Right App Visual Showcase (Clean, Integrated & Vector-Aligned) -->
             <div class="lg:col-span-6 p-6 sm:p-10 flex items-center justify-center relative">
               
               <!-- Ambient Glow behind Mockup -->
               <div class="absolute inset-0 bg-gradient-to-tr from-brand-500/10 via-rose-500/5 to-transparent rounded-3xl blur-2xl pointer-events-none"></div>
 
-              <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200/80 dark:border-slate-800 bg-white dark:bg-slate-950 group">
+              <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 group">
                 <img 
-                  src="/assets/app-screens.jpg" 
+                  src="/assets/passenger-experience.jpg" 
                   alt="Red Taxi Passenger App UI Screens" 
                   class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
@@ -269,12 +269,12 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
               </div>
             </div>
 
-            <!-- Right Driver Mockup Image -->
+            <!-- Right Driver Mockup Image (2D Vector Illustration) -->
             <div class="lg:col-span-6 p-6 sm:p-10 flex items-center justify-center relative">
-              <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-200/80 dark:border-slate-800 bg-white dark:bg-slate-950 group">
+              <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 group">
                 <img 
-                  src="/assets/mobile-app.jpg" 
-                  alt="Red Taxi Driver Cockpit App UI" 
+                  src="/assets/vector-driver-app.jpg" 
+                  alt="Red Taxi Driver Cockpit App 2D Vector UI" 
                   class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 
