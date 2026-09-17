@@ -35,35 +35,35 @@ import { ThemeService } from '../../../core/services/theme.service';
             </div>
           </a>
 
-          <!-- Simple Desktop Navigation -->
-          <nav class="hidden md:flex items-center gap-1.5 bg-slate-100/80 dark:bg-slate-800/60 p-1.5 rounded-full border border-slate-200/60 dark:border-slate-700/50 backdrop-blur-md">
+          <!-- Desktop Navigation -->
+          <nav class="hidden md:flex items-center gap-1 bg-slate-100/90 dark:bg-slate-800/80 p-1.5 rounded-full border border-slate-200/80 dark:border-slate-700/70 shadow-inner backdrop-blur-md">
             
             <a 
               routerLink="/" 
               routerLinkActive="bg-white dark:bg-slate-900 text-slate-950 dark:text-white shadow-sm font-bold" 
               [routerLinkActiveOptions]="{ exact: true }"
-              class="px-4.5 py-2 rounded-full text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white transition-all duration-200">
+              class="px-5 py-2 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white hover:bg-white/60 dark:hover:bg-slate-700/50 transition-all duration-200 whitespace-nowrap">
               Platform
             </a>
 
             <a 
               routerLink="/client" 
               routerLinkActive="bg-white dark:bg-slate-900 text-slate-950 dark:text-white shadow-sm font-bold"
-              class="px-4.5 py-2 rounded-full text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white transition-all duration-200">
+              class="px-5 py-2 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white hover:bg-white/60 dark:hover:bg-slate-700/50 transition-all duration-200 whitespace-nowrap">
               Mobile Apps
             </a>
 
             <a 
               routerLink="/admin" 
               routerLinkActive="bg-white dark:bg-slate-900 text-slate-950 dark:text-white shadow-sm font-bold"
-              class="px-4.5 py-2 rounded-full text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white transition-all duration-200">
+              class="px-5 py-2 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white hover:bg-white/60 dark:hover:bg-slate-700/50 transition-all duration-200 whitespace-nowrap">
               Dispatch Center
             </a>
 
             <a 
               routerLink="/pricing" 
               routerLinkActive="bg-white dark:bg-slate-900 text-slate-950 dark:text-white shadow-sm font-bold"
-              class="px-4.5 py-2 rounded-full text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white transition-all duration-200">
+              class="px-5 py-2 rounded-full text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-slate-950 dark:hover:text-white hover:bg-white/60 dark:hover:bg-slate-700/50 transition-all duration-200 whitespace-nowrap">
               Pricing
             </a>
           </nav>
@@ -75,11 +75,11 @@ import { ThemeService } from '../../../core/services/theme.service';
             <button 
               (click)="themeService.toggleTheme()"
               title="Toggle Light / Dark Mode"
-              class="p-2.5 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition-all duration-300 hover:scale-105 active:scale-95 shadow-sm cursor-pointer">
-              <svg *ngIf="themeService.isDark()" class="w-4.5 h-4.5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              class="p-2.5 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 border border-slate-200/80 dark:border-slate-700 text-slate-700 dark:text-slate-200 transition-all duration-300 hover:scale-105 active:scale-95 shadow-sm cursor-pointer flex items-center justify-center">
+              <svg *ngIf="themeService.isDark()" class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
               </svg>
-              <svg *ngIf="!themeService.isDark()" class="w-4.5 h-4.5 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg *ngIf="!themeService.isDark()" class="w-5 h-5 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
               </svg>
             </button>
@@ -87,7 +87,7 @@ import { ThemeService } from '../../../core/services/theme.service';
             <!-- Homie-Style "Start free trial" Pill Button -->
             <button 
               (click)="showTrialModal = true"
-              class="relative inline-flex items-center gap-0 border border-slate-300 dark:border-slate-700 rounded-full pl-5 sm:pl-6 pr-1.5 py-1.5 transition-all duration-300 group overflow-hidden bg-transparent shadow-sm hover:border-black dark:hover:border-white cursor-pointer">
+              class="relative inline-flex items-center gap-0 border border-slate-300 dark:border-slate-700 rounded-full pl-5 sm:pl-6 pr-1.5 py-1.5 transition-all duration-300 group overflow-hidden bg-white/50 dark:bg-slate-900/50 shadow-sm hover:border-black dark:hover:border-white cursor-pointer">
               <span class="absolute inset-0 rounded-full scale-x-0 origin-right group-hover:scale-x-100 transition-transform duration-500 ease-out bg-slate-900 dark:bg-white"></span>
               
               <span class="text-xs sm:text-sm font-bold pr-3 sm:pr-4 relative z-10 transition-colors duration-300 text-slate-900 dark:text-white group-hover:text-white dark:group-hover:text-slate-950">
