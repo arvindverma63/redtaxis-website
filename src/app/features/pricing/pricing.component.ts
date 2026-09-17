@@ -46,7 +46,7 @@ interface FeatureComparisonRow {
 
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight">
           Predictable plans for <br class="hidden sm:inline" />
-          <span class="bg-gradient-to-r from-brand-600 via-rose-600 to-red-500 bg-clip-text text-transparent">
+          <span class="bg-gradient-to-r from-brand-600 via-red-600 to-red-500 bg-clip-text text-transparent">
             fleets of any scale.
           </span>
         </h1>

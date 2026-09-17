@@ -8,17 +8,17 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          50: '#fff1f2',
-          100: '#ffe4e6',
-          200: '#fecdd3',
-          300: '#fda4af',
-          400: '#fb7185',
-          500: '#f43f5e',
-          600: '#e11d48',
-          700: '#be123c',
-          800: '#9f1239',
-          900: '#881337',
-          950: '#4c0519',
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#ef4444',
+          600: '#dc2626',
+          700: '#b91c1c',
+          800: '#991b1b',
+          900: '#7f1d1d',
+          950: '#450a0a',
         },
         taxi: {
           red: '#dc2626',
@@ -33,8 +33,8 @@ module.exports = {
         sans: ['"Roboto"', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
       },
       boxShadow: {
-        'glow-red': '0 0 25px -5px rgba(225, 29, 72, 0.45)',
-        'glow-subtle': '0 0 15px -3px rgba(225, 29, 72, 0.25)',
+        'glow-red': '0 0 25px -5px rgba(220, 38, 38, 0.45)',
+        'glow-subtle': '0 0 15px -3px rgba(220, 38, 38, 0.25)',
       },
       animation: {
         'pulse-subtle': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',

@@ -178,7 +178,7 @@ export const INITIAL_DRIVERS: Driver[] = [
     phone: '+91 97890 12345',
     email: 'muthu.r@redtaxis.in',
     photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
-    avatarColor: 'bg-rose-600',
+    avatarColor: 'bg-red-600',
     rating: 4.88,
     totalTrips: 2150,
     acceptanceRate: 95,

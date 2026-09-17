@@ -50,7 +50,7 @@ interface SoftwareModule {
         </div>
 
         <!-- Ambient Glow Pulses -->
-        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-gradient-to-b from-brand-500/15 via-rose-500/5 to-transparent blur-3xl pointer-events-none z-0"></div>
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-gradient-to-b from-brand-500/15 via-red-500/5 to-transparent blur-3xl pointer-events-none z-0"></div>
         <div class="absolute top-10 right-10 w-80 h-80 bg-brand-600/10 rounded-full blur-3xl pointer-events-none"></div>
 
         <div class="max-w-7xl mx-auto w-full relative z-10 flex flex-col items-center text-center space-y-8">
@@ -68,7 +68,7 @@ interface SoftwareModule {
           <div class="space-y-4 max-w-4xl">
             <h1 class="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-slate-900 dark:text-white leading-[1.08] animate-hero-title">
               Smarter taxi dispatch.<br>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-rose-600 to-red-600 dark:from-brand-500 dark:via-rose-500 dark:to-red-500">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 via-red-600 to-red-600 dark:from-brand-500 dark:via-red-500 dark:to-red-500">
                 Built for pure velocity.
               </span>
             </h1>
@@ -83,8 +83,13 @@ interface SoftwareModule {
             <a 
               routerLink="/client"
               class="relative inline-flex items-center gap-0 border border-brand-600 bg-brand-600 text-white rounded-full pl-6 pr-1.5 py-1.5 transition-all duration-300 group overflow-hidden shadow-lg shadow-brand-600/20 hover:shadow-brand-600/30 hover:scale-105 cursor-pointer">
-              <span class="text-sm font-semibold pr-3 relative z-10">Start Riding in App</span>
-              <span class="w-9 h-9 rounded-full bg-white text-brand-600 flex items-center justify-center relative z-10 shadow-sm transition-transform duration-300 group-hover:scale-105">
+              <span class="absolute inset-0 rounded-full scale-x-0 origin-right group-hover:scale-x-100 transition-transform duration-500 ease-out bg-slate-950"></span>
+              
+              <span class="text-xs sm:text-sm font-bold pr-3 sm:pr-4 relative z-10">
+                Explore Mobile Apps
+              </span>
+              
+              <span class="w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center relative z-10 bg-white text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition-all duration-300 shadow-sm">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
                 </svg>
@@ -92,9 +97,19 @@ interface SoftwareModule {
             </a>
 
             <a 
-              routerLink="/admin"
-              class="relative inline-flex items-center gap-2 px-6 py-3 rounded-full border border-slate-300 dark:border-slate-700 hover:border-slate-900 dark:hover:border-white text-slate-800 dark:text-slate-200 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-900 transition-all duration-300 shadow-sm hover:scale-105">
-              <span>Launch Dispatch Radar</span>
+              routerLink="/pricing"
+              class="relative inline-flex items-center gap-0 border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 text-slate-900 dark:text-white rounded-full pl-6 pr-1.5 py-1.5 transition-all duration-300 group overflow-hidden shadow-sm hover:border-black dark:hover:border-white hover:scale-105 cursor-pointer">
+              <span class="absolute inset-0 rounded-full scale-x-0 origin-right group-hover:scale-x-100 transition-transform duration-500 ease-out bg-slate-900 dark:bg-white"></span>
+              
+              <span class="text-xs sm:text-sm font-bold pr-3 sm:pr-4 relative z-10 text-slate-900 dark:text-white group-hover:text-white dark:group-hover:text-slate-950 transition-colors">
+                View Pricing Plans
+              </span>
+              
+              <span class="w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center relative z-10 bg-slate-900 dark:bg-white text-white dark:text-slate-900 group-hover:bg-white dark:group-hover:bg-slate-900 group-hover:text-slate-900 dark:group-hover:text-white transition-all duration-300 shadow-sm">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </span>
             </a>
           </div>
 
@@ -103,10 +118,10 @@ interface SoftwareModule {
             
             <!-- Radar Ripple Waves behind device -->
             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full border border-brand-500/20 animate-radar-ring pointer-events-none"></div>
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full border border-rose-500/10 animate-radar-ring pointer-events-none" style="animation-delay: 1.5s;"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full border border-red-500/10 animate-radar-ring pointer-events-none" style="animation-delay: 1.5s;"></div>
 
             <!-- Floating Realistic 3D Smartphone (Zero Outer Box) -->
-            <div class="relative w-full max-w-[310px] sm:max-w-[330px] mx-auto rounded-[3rem] p-3 bg-slate-900 dark:bg-slate-800 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] dark:shadow-[0_25px_60px_-15px_rgba(225,29,72,0.2)] border-4 border-slate-800 dark:border-slate-700 animate-float-phone">
+            <div class="relative w-full max-w-[310px] sm:max-w-[330px] mx-auto rounded-[3rem] p-3 bg-slate-900 dark:bg-slate-800 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] dark:shadow-[0_25px_60px_-15px_rgba(220,38,38,0.2)] border-4 border-slate-800 dark:border-slate-700 animate-float-phone">
               
               <!-- Dynamic Island & Camera Notch -->
               <div class="absolute top-5 left-1/2 -translate-x-1/2 w-24 h-4 bg-slate-950 rounded-full z-30 flex items-center justify-between px-2">
@@ -134,7 +149,7 @@ interface SoftwareModule {
                   <!-- Vector Route Curve -->
                   <svg class="absolute inset-0 w-full h-full" viewBox="0 0 300 220">
                     <path d="M 40 180 Q 120 160 150 110 T 260 40" fill="none" stroke="#cbd5e1" class="dark:stroke-slate-800" stroke-width="16" stroke-linecap="round"/>
-                    <path d="M 40 180 Q 120 160 150 110 T 260 40" fill="none" stroke="#e11d48" stroke-width="3.5" class="animate-dash-flow"/>
+                    <path d="M 40 180 Q 120 160 150 110 T 260 40" fill="none" stroke="#dc2626" stroke-width="3.5" class="animate-dash-flow"/>
                   </svg>
 
                   <!-- Moving Chauffeur Marker -->
@@ -379,7 +394,7 @@ interface SoftwareModule {
               
               <!-- Ambient AI Glows inside console -->
               <div class="absolute -top-12 -right-12 w-64 h-64 bg-brand-500/10 dark:bg-brand-600/20 rounded-full blur-3xl pointer-events-none"></div>
-              <div class="absolute -bottom-12 -left-12 w-64 h-64 bg-rose-500/10 dark:bg-rose-600/15 rounded-full blur-3xl pointer-events-none"></div>
+              <div class="absolute -bottom-12 -left-12 w-64 h-64 bg-red-500/10 dark:bg-red-600/15 rounded-full blur-3xl pointer-events-none"></div>
 
               <!-- Top Console HUD Bar -->
               <div class="bg-white/95 dark:bg-slate-900/90 backdrop-blur-md px-5 py-3.5 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between z-20 transition-colors">
@@ -397,13 +412,13 @@ interface SoftwareModule {
                 <div class="flex items-center gap-3">
                   <div class="hidden sm:flex items-center gap-1 h-5 px-2 rounded-md bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700/60">
                     <span class="w-1 bg-brand-500 rounded-full animate-wave-1"></span>
-                    <span class="w-1 bg-rose-500 rounded-full animate-wave-2"></span>
+                    <span class="w-1 bg-red-500 rounded-full animate-wave-2"></span>
                     <span class="w-1 bg-emerald-500 rounded-full animate-wave-3"></span>
                     <span class="w-1 bg-brand-400 rounded-full animate-wave-4"></span>
-                    <span class="w-1 bg-rose-400 rounded-full animate-wave-5"></span>
+                    <span class="w-1 bg-red-400 rounded-full animate-wave-5"></span>
                     <span class="w-1 bg-emerald-400 rounded-full animate-wave-6"></span>
                     <span class="w-1 bg-brand-500 rounded-full animate-wave-7"></span>
-                    <span class="w-1 bg-rose-500 rounded-full animate-wave-8"></span>
+                    <span class="w-1 bg-red-500 rounded-full animate-wave-8"></span>
                   </div>
                   <span class="text-[11px] font-mono font-bold text-emerald-700 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 border border-emerald-200 dark:border-emerald-800/50 px-2 py-0.5 rounded">
                     12ms Latency
@@ -770,7 +785,7 @@ export class WebsiteComponent {
       name: 'Driver Cockpit MDT',
       category: 'Native Mobile SDK',
       tagline: 'High-speed driver mobile terminal with turn-by-turn navigation & instant dispatch',
-      image: '/assets/vector-driver-app.jpg',
+      image: '/assets/driver-ai-assistant.jpg',
       badge: 'Driver App',
       rating: 4.98,
       specs: [

@@ -19,7 +19,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
 
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight">
           One Platform. <br class="hidden sm:inline" />
-          <span class="bg-gradient-to-r from-brand-600 via-rose-600 to-red-500 bg-clip-text text-transparent">
+          <span class="bg-gradient-to-r from-brand-600 via-red-600 to-red-500 bg-clip-text text-transparent">
             Two Powerful Apps.
           </span>
         </h1>
@@ -159,7 +159,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
             <div class="lg:col-span-6 p-6 sm:p-10 flex items-center justify-center relative">
               
               <!-- Ambient Glow behind Mockup -->
-              <div class="absolute inset-0 bg-gradient-to-tr from-brand-500/10 via-rose-500/5 to-transparent rounded-3xl blur-2xl pointer-events-none"></div>
+              <div class="absolute inset-0 bg-gradient-to-tr from-brand-500/10 via-red-500/5 to-transparent rounded-3xl blur-2xl pointer-events-none"></div>
 
               <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 group">
                 <img 
@@ -269,12 +269,12 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
               </div>
             </div>
 
-            <!-- Right Driver Mockup Image (2D Vector Illustration) -->
+            <!-- Right Driver Mockup Image -->
             <div class="lg:col-span-6 p-6 sm:p-10 flex items-center justify-center relative">
               <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 group">
                 <img 
-                  src="/assets/vector-driver-app.jpg" 
-                  alt="Red Taxi Driver Cockpit App 2D Vector UI" 
+                  src="/assets/driver-ai-assistant.jpg" 
+                  alt="Red Taxi Driver Cockpit App UI" 
                   class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 />
 

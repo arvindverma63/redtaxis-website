@@ -29,22 +29,22 @@ import { ThemeService } from '../../../core/services/theme.service';
 
             <!-- Vehicle Heading Cone Gradient -->
             <radialGradient id="headingCone" cx="50%" cy="100%" r="100%">
-              <stop offset="0%" stop-color="#e11d48" stop-opacity="0.3" />
-              <stop offset="100%" stop-color="#e11d48" stop-opacity="0" />
+              <stop offset="0%" stop-color="#dc2626" stop-opacity="0.3" />
+              <stop offset="100%" stop-color="#dc2626" stop-opacity="0" />
             </radialGradient>
 
             <!-- Radar Sweep Gradient -->
             <radialGradient id="radarSweepGrad" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stop-color="#e11d48" stop-opacity="0.15" />
-              <stop offset="70%" stop-color="#e11d48" stop-opacity="0.03" />
-              <stop offset="100%" stop-color="#e11d48" stop-opacity="0" />
+              <stop offset="0%" stop-color="#dc2626" stop-opacity="0.15" />
+              <stop offset="70%" stop-color="#dc2626" stop-opacity="0.03" />
+              <stop offset="100%" stop-color="#dc2626" stop-opacity="0" />
             </radialGradient>
 
             <!-- Route Active Gradient -->
             <linearGradient id="routeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stop-color="#10b981" />
               <stop offset="50%" stop-color="#f59e0b" />
-              <stop offset="100%" stop-color="#e11d48" />
+              <stop offset="100%" stop-color="#dc2626" />
             </linearGradient>
 
             <!-- Glow Filters -->
@@ -75,7 +75,7 @@ import { ThemeService } from '../../../core/services/theme.service';
           <!-- 3. Animated Radar Sweep Beam -->
           <g class="pointer-events-none animate-radar-sweep">
             <path d="M 500 350 L 500 -50 A 400 400 0 0 1 850 350 Z" fill="url(#radarSweepGrad)" />
-            <line x1="500" y1="350" x2="850" y2="350" stroke="#e11d48" stroke-width="1" stroke-opacity="0.4" />
+            <line x1="500" y1="350" x2="850" y2="350" stroke="#dc2626" stroke-width="1" stroke-opacity="0.4" />
           </g>
 
           <!-- 4. Geometric Urban Districts & Zones -->
@@ -134,7 +134,7 @@ import { ThemeService } from '../../../core/services/theme.service';
             <path 
               [attr.d]="generateRoutePath(pickupCoord, dropoffCoord)" 
               fill="none" 
-              stroke="#e11d48" 
+              stroke="#dc2626" 
               stroke-width="8" 
               stroke-opacity="0.25"
               stroke-linecap="round"
@@ -172,10 +172,10 @@ import { ThemeService } from '../../../core/services/theme.service';
 
           <!-- Dropoff Marker Beacon -->
           <g *ngIf="dropoffCoord" class="cursor-pointer transition-transform duration-300 hover:scale-110">
-            <circle [attr.cx]="dropoffCoord.x" [attr.cy]="dropoffCoord.y" r="14" fill="rgba(225, 29, 72, 0.25)" filter="url(#telemetry-glow)" />
-            <circle [attr.cx]="dropoffCoord.x" [attr.cy]="dropoffCoord.y" r="6" fill="#e11d48" stroke="#ffffff" stroke-width="2" />
+            <circle [attr.cx]="dropoffCoord.x" [attr.cy]="dropoffCoord.y" r="14" fill="rgba(220, 38, 38, 0.25)" filter="url(#telemetry-glow)" />
+            <circle [attr.cx]="dropoffCoord.x" [attr.cy]="dropoffCoord.y" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="2" />
             <rect [attr.x]="dropoffCoord.x - 38" [attr.y]="dropoffCoord.y - 28" width="76" height="18" rx="6" class="fill-slate-900 stroke-brand-500" stroke-width="1.2" />
-            <text [attr.x]="dropoffCoord.x" [attr.y]="dropoffCoord.y - 16" fill="#fb7185" font-size="8.5" font-weight="800" font-family="monospace" text-anchor="middle">DROPOFF</text>
+            <text [attr.x]="dropoffCoord.x" [attr.y]="dropoffCoord.y - 16" fill="#f87171" font-size="8.5" font-weight="800" font-family="monospace" text-anchor="middle">DROPOFF</text>
           </g>
 
           <!-- 8. HIGH-END MODERN VEHICLE TELEMETRY PUCKS -->
@@ -191,8 +191,8 @@ import { ThemeService } from '../../../core/services/theme.service';
               <circle 
                 *ngIf="driver.status === 'busy' || selectedDriverId === driver.id"
                 cx="0" cy="0" r="18" 
-                [attr.fill]="driver.status === 'busy' ? 'rgba(225, 29, 72, 0.2)' : 'rgba(14, 165, 233, 0.2)'"
-                [attr.stroke]="driver.status === 'busy' ? '#e11d48' : '#0ea5e9'"
+                [attr.fill]="driver.status === 'busy' ? 'rgba(220, 38, 38, 0.2)' : 'rgba(14, 165, 233, 0.2)'"
+                [attr.stroke]="driver.status === 'busy' ? '#dc2626' : '#0ea5e9'"
                 stroke-width="1.5"
                 class="animate-pulse"
               />
@@ -200,7 +200,7 @@ import { ThemeService } from '../../../core/services/theme.service';
               <!-- Sleek Modern Telemetry Vehicle Puck -->
               <g [attr.transform]="'rotate(' + (driver.location.heading || 0) + ')'">
                 <!-- Outer Ring Halo -->
-                <circle cx="0" cy="0" r="11" [attr.fill]="driver.status === 'busy' ? '#e11d48' : '#0f172a'" stroke="#ffffff" stroke-width="2" class="shadow-md" />
+                <circle cx="0" cy="0" r="11" [attr.fill]="driver.status === 'busy' ? '#dc2626' : '#0f172a'" stroke="#ffffff" stroke-width="2" class="shadow-md" />
                 <!-- Directional Arrow Node -->
                 <polygon points="0,-6 4.5,4.5 0,2 -4.5,4.5" fill="#ffffff" />
               </g>
@@ -208,7 +208,7 @@ import { ThemeService } from '../../../core/services/theme.service';
               <!-- Sleek Monospace License Plate Tag -->
               <g transform="translate(0, 20)">
                 <rect x="-38" y="-7.5" width="76" height="15" rx="4" class="fill-slate-900/95 stroke-slate-700/80" stroke-width="1" />
-                <circle cx="-30" cy="0" r="2.5" [attr.fill]="driver.status === 'online' ? '#10b981' : '#e11d48'" />
+                <circle cx="-30" cy="0" r="2.5" [attr.fill]="driver.status === 'online' ? '#10b981' : '#dc2626'" />
                 <text x="-23" y="3" fill="#f8fafc" font-size="7.5" font-weight="700" font-family="monospace">{{ driver.vehicle.plateNumber }}</text>
               </g>
 

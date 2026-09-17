@@ -21,7 +21,7 @@ import { ThemeService } from '../../core/services/theme.service';
 
         <h1 class="text-3xl sm:text-5xl font-black text-slate-900 dark:text-white tracking-tight">
           Central Dispatch & <br class="hidden sm:inline" />
-          <span class="bg-gradient-to-r from-brand-600 via-rose-600 to-red-500 bg-clip-text text-transparent">
+          <span class="bg-gradient-to-r from-brand-600 via-red-600 to-red-500 bg-clip-text text-transparent">
             Fleet Command Center
           </span>
         </h1>
