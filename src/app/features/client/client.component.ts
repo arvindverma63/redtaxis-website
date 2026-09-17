@@ -273,7 +273,7 @@ import { TaxiStateService } from '../../core/services/taxi-state.service';
             <div class="lg:col-span-6 p-6 sm:p-10 flex items-center justify-center relative">
               <div class="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 group">
                 <img 
-                  src="/assets/driver-ai-assistant.jpg" 
+                  src="/assets/mobile-app.jpg" 
                   alt="Red Taxis Driver Cockpit App UI" 
                   class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
                 />

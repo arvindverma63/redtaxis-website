@@ -118,93 +118,24 @@ interface SoftwareModule {
             </a>
           </div>
 
-          <!-- ANIMATED 3D INTERACTIVE DEVICE SHOWCASE (ISOLATED PHONE MOCKUP WITH NO BACKGROUND BOX) -->
-          <div class="w-full max-w-2xl pt-6 relative select-none">
+          <!-- REALISTIC 3D SMARTPHONE SHOWCASE WITH FLOATING TELEMETRY BADGES -->
+          <div class="w-full max-w-2xl pt-4 relative select-none">
             
             <!-- Radar Ripple Waves behind device -->
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 rounded-full border border-brand-500/20 animate-radar-ring pointer-events-none"></div>
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 rounded-full border border-red-500/10 animate-radar-ring pointer-events-none" style="animation-delay: 1.5s;"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full border border-brand-500/20 animate-radar-ring pointer-events-none"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[420px] h-[420px] rounded-full border border-red-500/10 animate-radar-ring pointer-events-none" style="animation-delay: 1.5s;"></div>
 
-            <!-- Floating Realistic 3D Smartphone (Zero Outer Box) -->
-            <div class="relative w-full max-w-[310px] sm:max-w-[330px] mx-auto rounded-[3rem] p-3 bg-slate-900 dark:bg-slate-800 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.3)] dark:shadow-[0_25px_60px_-15px_rgba(220,38,38,0.2)] border-4 border-slate-800 dark:border-slate-700 animate-float-phone">
-              
-              <!-- Dynamic Island & Camera Notch -->
-              <div class="absolute top-5 left-1/2 -translate-x-1/2 w-24 h-4 bg-slate-950 rounded-full z-30 flex items-center justify-between px-2">
-                <div class="w-2 h-2 rounded-full bg-slate-900 border border-slate-800"></div>
-                <div class="w-2 h-2 rounded-full bg-slate-900 border border-emerald-500/60"></div>
-              </div>
-
-              <!-- Smartphone Screen Content -->
-              <div class="rounded-[2.4rem] bg-slate-50 dark:bg-slate-950 overflow-hidden text-slate-900 dark:text-white border border-slate-200 dark:border-slate-800 flex flex-col pt-5 pb-3">
-                
-                <!-- Screen Top App Bar -->
-                <div class="px-4 py-2 flex items-center justify-between border-b border-slate-200/80 dark:border-slate-800 bg-white dark:bg-slate-900">
-                  <div class="flex items-center gap-1.5">
-                    <div class="w-5 h-5 rounded-lg bg-brand-600 text-white flex items-center justify-center text-[10px] font-bold">R</div>
-                    <span class="text-xs font-black tracking-tight text-slate-900 dark:text-white">RED TAXIS</span>
-                  </div>
-                  <span class="text-[9px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 font-bold">● Live GPS</span>
-                </div>
-
-                <!-- Screen Live Vector Route Map -->
-                <div class="relative h-56 bg-slate-100 dark:bg-slate-900/80 overflow-hidden flex items-center justify-center">
-                  <!-- Grid dots -->
-                  <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#000_1px,transparent_1px)] dark:bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:12px_12px]"></div>
-
-                  <!-- Vector Route Curve -->
-                  <svg class="absolute inset-0 w-full h-full" viewBox="0 0 300 220">
-                    <path d="M 40 180 Q 120 160 150 110 T 260 40" fill="none" stroke="#cbd5e1" class="dark:stroke-slate-800" stroke-width="16" stroke-linecap="round"/>
-                    <path d="M 40 180 Q 120 160 150 110 T 260 40" fill="none" stroke="#dc2626" stroke-width="3.5" class="animate-dash-flow"/>
-                  </svg>
-
-                  <!-- Moving Chauffeur Marker -->
-                  <div class="absolute top-20 left-28 flex flex-col items-center animate-pulse">
-                    <div class="w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center text-xs shadow-glow-red border-2 border-white">
-                      <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/>
-                      </svg>
-                    </div>
-                  </div>
-
-                  <!-- Pickup Beacon -->
-                  <div class="absolute bottom-6 left-6 flex items-center gap-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 px-2 py-1 rounded-lg shadow-sm">
-                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                    <span class="text-[10px] font-bold">Avinashi Rd</span>
-                  </div>
-
-                  <!-- Dropoff Beacon -->
-                  <div class="absolute top-5 right-6 flex items-center gap-1.5 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 px-2 py-1 rounded-lg shadow-sm">
-                    <span class="w-2 h-2 rounded-full bg-brand-500"></span>
-                    <span class="text-[10px] font-bold">Airport T1</span>
-                  </div>
-                </div>
-
-                <!-- Bottom Booking Card -->
-                <div class="p-4 bg-white dark:bg-slate-900 border-t border-slate-200/80 dark:border-slate-800 space-y-3">
-                  <div class="flex items-center justify-between">
-                    <div>
-                      <div class="text-xs font-black text-slate-900 dark:text-white">Red Prime Sedan</div>
-                      <div class="text-[10px] text-slate-500 dark:text-slate-400">Toyota Etios • 2 mins away</div>
-                    </div>
-                    <div class="text-right">
-                      <div class="text-xs font-black text-brand-600 dark:text-brand-400">₹240</div>
-                      <div class="text-[9px] text-slate-400 line-through">₹280</div>
-                    </div>
-                  </div>
-
-                  <button 
-                    routerLink="/client"
-                    class="w-full py-2 rounded-xl bg-brand-600 text-white font-bold text-xs shadow-md hover:bg-brand-500 transition-colors">
-                    Confirm Booking
-                  </button>
-                </div>
-
-              </div>
-
+            <!-- Photorealistic 3D Smartphone Device -->
+            <div class="relative w-full max-w-[340px] sm:max-w-[420px] mx-auto rounded-3xl overflow-hidden shadow-2xl border border-slate-200/80 dark:border-slate-800 animate-float-phone group bg-white dark:bg-slate-900">
+              <img 
+                src="/assets/hero-app.jpg" 
+                alt="Red Taxis Modern Dispatch App" 
+                class="w-full h-auto object-cover transform group-hover:scale-103 transition-transform duration-500"
+              />
             </div>
 
             <!-- Floating Status Badges (Left & Right) -->
-            <div class="absolute -left-2 sm:left-4 top-1/3 hidden sm:flex items-center gap-2.5 p-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-800 shadow-xl animate-float-badge-left">
+            <div class="absolute -left-2 sm:left-2 top-1/3 hidden sm:flex items-center gap-2.5 p-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-800 shadow-xl animate-float-badge-left">
               <div class="w-7 h-7 rounded-xl bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                   <polyline points="20 6 9 17 4 12"/>
@@ -216,7 +147,7 @@ interface SoftwareModule {
               </div>
             </div>
 
-            <div class="absolute -right-2 sm:right-4 bottom-1/4 hidden sm:flex items-center gap-2.5 p-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-800 shadow-xl animate-float-badge-right">
+            <div class="absolute -right-2 sm:right-2 bottom-1/4 hidden sm:flex items-center gap-2.5 p-2.5 rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border border-slate-200/90 dark:border-slate-800 shadow-xl animate-float-badge-right">
               <div class="w-7 h-7 rounded-xl bg-brand-500/15 text-brand-600 dark:text-brand-400 flex items-center justify-center">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
@@ -427,7 +358,7 @@ interface SoftwareModule {
                   <!-- Driver AI Assistant Photo Card with Scanning Radar Beam -->
                   <div class="md:col-span-5 relative rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm group">
                     <img 
-                      src="/assets/driver-ai-assistant.jpg" 
+                      src="/assets/mobile-app.jpg" 
                       alt="Driver AI Dispatch Assistant" 
                       class="w-full h-48 sm:h-52 object-cover object-center transform group-hover:scale-105 transition-transform duration-500 ease-out"
                     />
@@ -899,7 +830,7 @@ export class WebsiteComponent implements OnInit, OnDestroy {
       name: 'Driver Cockpit MDT',
       category: 'Native Mobile Terminal',
       tagline: 'High-speed driver mobile terminal with turn-by-turn navigation & instant dispatch',
-      image: '/assets/driver-ai-assistant.jpg',
+      image: '/assets/mobile-app.jpg',
       badge: 'Driver App',
       benefits: [
         { iconType: 'bolt', title: '15s Auto-Offer Alerts', desc: 'Instant 1-tap booking acceptance' },
